@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+body{
+  font-family: "Montserrat";
+
+}
+
+h2{
+    margin-top: 100px;
+    margin-left: 70px;
+    padding-left: 40px;
+}
+
+#search-wrapper{
+  width: 30%;
+  height: 35px;
+}
+
+header{
+  margin-bottom: 105px;
+}
+.form-controlrounded{
+  width: 80%;
+  height: 35px;
+  border-color: #eeeee8;
+}
+
+.height {
+  height: 100vh
+}
+
+.form {
+  position: relative
+}
+
+.form .fa-search {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #9ca3af
+}
+
+.form span {
+  position: absolute;
+  right: 17px;
+  top: 13px;
+  padding: 2px;
+  border-left: 1px solid #d1d5db
+}
+
+.left-pan {
+  padding-left: 7px
+}
+
+.left-pan i {
+  padding-left: 10px
+}
+
+.form-input {
+  height: 55px;
+  text-indent: 33px;
+  border-radius: 10px
+}
+
+.form-input:focus {
+  box-shadow: none;
+  border: none
+}
+
+#left-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#left-menu a{
+  margin: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #009688;
+}
+p{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 17px;
+  right: 105px;
+  color: #009688;
+  font-weight: bolder;
+}
+.fa-solidfa-cart-shopping{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 36px;
+  right: 95px;
+  color: #009688;
+}
+
+span{
+  font-size: 40px;
+}
+
+#cart-wrapper{
+  display: flex;
+  width: 7%;
+}
+
+
+#topbar {
+  width: 100%;
+  box-shadow: 0 2px 5px #ccc;
+  background-color: white;
+  z-index: 10;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 16px 8%
+}
+#confirm{
+    margin-top: 200px;
+  text-align: center;
+}
+
+
+  #thanks{
+      font-size: 82px;
+      color: #009688;
+      
+  }
+
+  .input-grouprounded{
+      width: 40%;
+  }
+.input-group-textborder-0{
+    display: inline-block;
+    width: 15%;
+}
+  
+header{
+    margin-bottom: 5px;
+  }
+  
+  
+  #left-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  #topbar {
+    width: 100%;
+    box-shadow: 0 2px 5px #ccc;
+    background-color: white;
+    z-index: 10;
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 16px 8%
+  }

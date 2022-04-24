@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+body{
+  font-family: "Montserrat";
+
+}
+
+h2{
+    margin-top: 100px;
+    margin-left: 70px;
+    padding-left: 40px;
+}
+
+#search-wrapper{
+  width: 30%;
+  height: 35px;
+}
+
+header{
+  margin-bottom: 105px;
+}
+.form-controlrounded{
+  width: 80%;
+  height: 35px;
+  border-color: #eeeee8;
+}
+
+.height {
+  height: 100vh
+}
+
+.form {
+  position: relative
+}
+
+.form .fa-search {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #9ca3af
+}
+
+.form span {
+  position: absolute;
+  right: 17px;
+  top: 13px;
+  padding: 2px;
+  border-left: 1px solid #d1d5db
+}
+
+.left-pan {
+  padding-left: 7px
+}
+
+.left-pan i {
+  padding-left: 10px
+}
+
+.form-input {
+  height: 55px;
+  text-indent: 33px;
+  border-radius: 10px
+}
+
+.form-input:focus {
+  box-shadow: none;
+  border: none
+}
+
+#left-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#left-menu a{
+  margin: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bolder;
+  color: #009688;
+}
+p{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 17px;
+  right: 105px;
+  color: #009688;
+  font-weight: bolder;
+}
+.fa-solidfa-cart-shopping{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 36px;
+  right: 95px;
+  color: #009688;
+}
+
+span{
+  font-size: 40px;
+}
+
+#cart-wrapper{
+  display: flex;
+  width: 7%;
+}
+
+
+#topbar {
+  width: 100%;
+  box-shadow: 0 2px 5px #ccc;
+  background-color: white;
+  z-index: 10;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 16px 8%
+}
+body{
+    font-family: "Montserrat";
+  
+  }
+
+  h1{
+      margin-top: 120px;
+      margin-left: 110px;
+  }
+  
+  h2{
+      margin-top: 100px;
+      margin-left: 70px;
+      padding-left: 40px;
+  }
+  h5, h3{
+    padding: 0;
+    margin: 0;
+    height: 15px;
+  }
+  header{
+    margin-bottom: 5px;
+  
+  }
+  
+  .other{
+    padding: 10px 10px 10px 0px;
+    font-size: 15px;
+    display: block;
+  }
+  
+  #left-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #left-menu a{
+    margin: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #009688;
+  }
+  p{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 17px;
+    right: 105px;
+    color: #009688;
+    font-weight: bolder;
+  }
+  .fa-solidfa-cart-shopping{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 36px;
+    right: 95px;
+    color: #009688;
+  }
+  
+  
+  #cart-wrapper{
+    display: flex;
+    width: 7%;
+  }
+  
+  
+  #topbar {
+    width: 100%;
+    box-shadow: 0 2px 5px #ccc;
+    background-color: white;
+    z-index: 10;
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 16px 8%
+  }
+
+  .checkout-product-img{
+    width: 100%;
+    min-width: 80px;
+    border-radius: 5px;
+    margin-right: 16px;
+  }
+
+  .productcard{
+    width: 25%;
+    
+  }
+
+  #main{
+    display: flex;
+    align-items: top;
+  
+  }
+
+  .summary{
+    margin: 0 75px;
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 30%); 
+  }
+
+  .detail{
+    width: 1300px;
+  }
+
+  .Description{
+    width: 60%;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 1.17em;
+  }
+
+  .amount{
+    height:10px;
+    margin-top: 10px;
+  }
+
+  #amount{
+    width: 30%;
+    height: 150px;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 30%); 
+    padding: 15px 15px;
+    font-weight: bolder;
+    font-size: 1.17em;
+    margin: 10px;
+  }
+
+  button{
+    margin-top: 10%;
+    display: block;
+    background-color: #009688;
+    font-size: 18px;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    padding: 18px 36px;
+    border-radius: 6px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
+    color: white;
+  }
